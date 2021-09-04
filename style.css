@@ -42,6 +42,7 @@ body {
   background-size: cover;
   height: 650px;
   padding-top: 50px;
+  padding-bottom: 50px;
   position: relative;
 }
 
@@ -53,6 +54,21 @@ body {
 #general-information{
   display: flex;
   justify-content: space-evenly;
+
+}
+
+.container article{
+  padding: 75px;
+}
+
+
+
+#general-information .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+
 }
 
 #team hr {
@@ -60,11 +76,23 @@ body {
   width: 40%;
 }
 
-.container article {
-  width: 1200px;
+#structure >div{
+  display: flex;
+  
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px auto 50px auto;
+  width: 48%;
+}
+
+#structure section{
+  padding: 0;
   margin: 0 auto;
-  padding: 75px 0;
-  padding-bottom: 0;
+}
+
+#structure h3{
+  margin: 50px;
 }
 
 .schedule-table {
@@ -160,6 +188,7 @@ h5 {
   text-align: center;
   text-decoration: none;
   letter-spacing: 0.5px;
+  padding: 10px 30px 10px 30px;
 }
 
 .service-box article {
